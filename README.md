@@ -44,8 +44,8 @@ Key features:
    - Semantic change detection via cosine similarity and alignment methods.
 
 2. **Supervised Approaches**:
-   - Fine-tuned **BERT** model on annotated datasets.
-   - Classification using annotated semantic change levels (e.g., strong, moderate, weak).
+   - Fine-tuned **Supervised** model on annotated datasets.
+   - Classification using annotated semantic change levels.
 
 3. **Annotation Pipeline**:
    - Selection of representative sentences using clustering and contextual scoring.
