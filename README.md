@@ -1,4 +1,4 @@
-# **Lexical semantic change detection a supervised appraoch**
+# **Lexical semantic change detection a supervised approach**
 
 This repository contains the work for my thesis on **Lexical Semantic Change Detection**, focusing on identifying and analyzing shifts in word meanings across time using modern NLP techniques. The thesis explores approaches like **Skip-Gram with Negative Sampling (SGNS)** and **BERT fine-tuning** on diachronic corpora.
 
