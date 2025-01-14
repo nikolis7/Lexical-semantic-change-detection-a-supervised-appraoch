@@ -33,23 +33,30 @@ Key features:
    - **C2 (Modern Corpus)**: Covers 1960–present.
 
 ### Preprocessing:
-- Part-of-speech (POS) tagging and tokenization.
+- Part-of-speech (POS) tagging
+- tokenization
+- Stopword and punctuation removal
 - Sentences formatted as lists with POS tags (e.g., `["word_nn", "run_vb"]`).
 
 ---
 
 ## **Methods**
-1. **Unsupervised Approaches**:
-   - Word embeddings trained using SGNS.
+1. **Unsupervised Candidate Word Generation**:
+   - SGNS models: own-trained and pretrained
+   - Embedding alignment: incremental learning, Orthogonal Procrustes, or both
+   - Threshold strategies: average, median, lower confidence interval, or 5th percentile of cosine similarities for known semantic shifts
    - Semantic change detection via cosine similarity and alignment methods.
 
-2. **Supervised Approaches**:
-   - Fine-tuned **Supervised** model on annotated datasets.
-   - Classification using annotated semantic change levels.
-
-3. **Annotation Pipeline**:
+2. **Annotation Pipeline**:
    - Selection of representative sentences using clustering and contextual scoring.
    - Annotation validation through inter-annotator agreement analysis.
+   - Conducted by three independent annotators
+   - Classification criteria: Focused on moderate or strong semantic change. Majority vote used for reliability
+
+3. **Supervised lexical semantic change detection**:
+   - Developed a supervised model using the annotated dataset
+   - Features: i) Word embeddings from each corpus ii) TF-IDF scores to capture semantic and contextual information
+
 
 ---
 
