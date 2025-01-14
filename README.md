@@ -21,7 +21,7 @@ The goal of this thesis is to:
 
 Key features:
 - Use of **SemEval datasets** for benchmarking.
-- Experiments with word embeddings and contextualized models.
+- Experiments with word embeddings.
 - Annotated dataset creation for supervised classification.
 
 ---
