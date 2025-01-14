@@ -15,7 +15,7 @@ This repository contains the work for my thesis on **Lexical Semantic Change Det
 
 ## **Overview**
 The goal of this thesis is to:
-1. Detect lexical semantic changes using unsupervised and supervised approaches.
+1. Detect lexical semantic changes using supervised approaches.
 2. Analyze the semantic shifts of words across historical (1800s) and modern (2000s) corpora.
 3. Develop methods to ensure high-quality annotations and robust analysis.
 
